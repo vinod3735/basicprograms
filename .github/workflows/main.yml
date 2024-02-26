@@ -1,1 +1,11 @@
-hello
+name: github_actions_file
+on:
+  push:
+    - main
+workflow_dispatch:
+jobs:
+  steps:
+    echo " hello world"
+run
+  
+
