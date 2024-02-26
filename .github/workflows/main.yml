@@ -1,11 +1,12 @@
 name: github_actions_file
-on:
-  push:
-    - main
-workflow_dispatch:
+on: [push]
+
 jobs:
+  workflow-dispatch
+runs-on: ubuntu latest
   steps:
-    echo " hello world"
-run
+    - name: running hello world
+      run: echo Hello world"
+
   
 
